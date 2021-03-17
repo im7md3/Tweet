@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.text-lg{font-size: 18px;}
+.text-xl{font-size: 22px;}
+.text-sm{font-size: 14px;}
+.black{color:#000}
+.friend{background:rgb(113 113 113 / 4%)}
+.friend-info{font-size: 14px;}
+.mr-6{margin-right: 6rem;}
+.ml-6{margin-left: 6rem;}
+.border-gray{border-color: gray;}
+#success-msg{
+    span{width: 16px;height: 2px;background: #F44336;position: absolute;top: 24px;right: 15px;transform: rotate(45deg); cursor: pointer;}
+    span:nth-child(2){transform: rotate(-45deg);}
+}
+
+a:hover{text-decoration: none;color:black}
+.fixed-left{}
+
+.more:hover{.list-more{display: block;}}
+.text-shadow{text-shadow: 0 0 1px #000;}
